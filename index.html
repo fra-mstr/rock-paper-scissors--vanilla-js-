@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+
+    <!-- Font Awesome 5.15.1 (CDN) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/functions.js" charset="utf-8"></script>
+  </head>
+
+
+  <body>
+
+    <div class="container">
+      <div class="user-input">
+        <div class="card rock">
+          <div class="emoji">
+            &#9994;
+          </div>
+          <div class="fn-1">
+            ROCK
+          </div>
+        </div>
+        <div class="card paper">
+          <div class="emoji">
+            &#9995;
+          </div>
+          <div class="fn-1">
+            PAPER
+          </div>
+        </div>
+        <div class="card rock">
+          <div class="emoji">
+            &#9996;
+          </div>
+          <div class="fn-1">
+            SCISSORS
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="selections">
+        <div class="user-results">
+          <span class="player">You</span>
+          <span
+            class="score"
+            id="player-score">
+              1
+          </span>
+        </div>
+        <div class="computer-results">
+          <span class="player">Opponent</span>
+          <span
+            class="score"
+            id="computer-score">
+            0
+          </span>
+        </div>
+      </div>
+      <div class="results-list">
+        <div class="result">
+          <div class="player-result">
+            &#9994;
+          </div>
+          <div class="opponent-result loser">
+            &#9996;
+          </div>
+        </div>
+        <div class="result">
+          <div class="player-result">
+            &#9994;
+          </div>
+          <div class="opponent-result loser">
+            &#9996;
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+		<!-- Custom JS -->
+		<script src="js/main.js" charset="utf-8"></script>
+  </body>
+</html>
